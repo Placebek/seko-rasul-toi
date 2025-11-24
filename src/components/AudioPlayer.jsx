@@ -8,7 +8,7 @@ const AudioPlayer = () => {
   const [error, setError] = useState(null); // Для отладки ошибок
 
   // Новая ссылка: MP3 версия Адай (Курмангазы) — CORS-friendly, универсальный формат
-  const audioUrl = 'public/audio/Тұсау+кесер.mp3'; // Тестовый звук (замени на реальный ниже)
+  const audioUrl = 'https://kzmp3.kz/api/mp3_download/12490'; // Тестовый звук (замени на реальный ниже)
   // Реальная казахская: 'https://archive.org/download/KurmangazyAdai/Kurmangazy%20-%20Adai.mp3' (если archive.org работает; проверь)
   // Альтернатива: 'https://www.bensound.com/bensound-music/bensound-slow-motion.mp3' (фолк-стиль, бесплатный)
 

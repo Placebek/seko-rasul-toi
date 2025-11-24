@@ -2,9 +2,9 @@ import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const images = [
-  "https://images.pexels.com/photos/2074764/pexels-photo-2074764.jpeg?auto=compress&cs=tinysrgb&w=1000&fit=crop", // Семья в традиционных казахских костюмах на празднике
-  "https://images.pexels.com/photos/1149662/pexels-photo-1149662.jpeg?auto=compress&cs=tinysrgb&w=1000&fit=crop", // Невеста в национальной одежде с орнаментами
-  "https://images.pexels.com/photos/1169953/pexels-photo-1169953.jpeg?auto=compress&cs=tinysrgb&w=1000&fit=crop"  // Традиционный банкет с едой и гостями
+  "https://massaget.kz/userdata/news/news_42683/image_l.jpg.webp", // Семья в традиционных казахских костюмах на празднике
+  "https://aqmeshit-aptalygy.kz/wp-content/uploads/2023/08/s-ndet.jpg", // Невеста в национальной одежде с орнаментами
+  "https://bastynews.kz/wp-content/uploads/2023/10/2021_05_25_otbasy-tarbie.jpg"  // Традиционный банкет с едой и гостями
 ];
 
 const Hero = ({ t }) => {

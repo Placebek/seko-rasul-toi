@@ -46,7 +46,7 @@ function App() {
     <FamilyTree t={t} />
 
     {/* Разделитель (фото) */}
-    <div className="h-48 bg-fixed bg-center bg-cover my-6 relative" style={{backgroundImage: "url('public/img/restaurant.png')"}}>
+    <div className="h-48 bg-fixed bg-center bg-cover my-6 relative" style={{backgroundImage: "url('https://avatars.mds.yandex.net/get-altay/14190752/2a000001948c39515237d13d8b7119035a93/XXXL')"}}>
         <div className="absolute inset-0 bg-black/30"></div>
     </div>
 
